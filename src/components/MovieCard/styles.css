@@ -1,0 +1,30 @@
+.card-container {
+    list-style: none;
+    display: grid;
+   
+}
+
+.card-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-element a {
+    transition: 0.3s;
+}
+.card-element a:hover {
+    transform: scale(1.05);
+}
+
+.card-element img {
+    width: 180px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-element span {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}

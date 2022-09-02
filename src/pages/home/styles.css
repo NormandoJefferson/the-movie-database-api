@@ -1,0 +1,11 @@
+.home-title {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 3rem;
+    row-gap: 4rem;
+}

@@ -1,0 +1,53 @@
+.container {
+    padding: 4rem 0;
+}
+
+.container h1{
+    margin: 3rem 0;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie img {
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 6rem;
+    max-width: 50%;
+}
+
+.sinopse {
+    line-height: 130%;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.release-date {
+    opacity: 0.5;
+}
+
+.details button {
+    font-size: 1rem;
+    font-weight: bold;
+    background: #6654da;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    transition: all 0.3s;
+}
+
+.details button:hover {
+    background-color: #5848c2;
+}
