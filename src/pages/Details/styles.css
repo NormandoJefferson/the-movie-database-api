@@ -2,7 +2,7 @@
     padding: 4rem 0;
 }
 
-.container h1{
+.details h1{
     margin: 3rem 0;
 }
 
@@ -51,3 +51,57 @@
 .details button:hover {
     background-color: #5848c2;
 }
+
+@media(max-width: 576px) {
+
+    .container {
+        padding: 0;
+    }
+   
+    .movie {
+        flex-direction: column;
+    }
+
+    .movie img {
+        width: 230px;
+    }
+
+    .details {
+        margin: 0;
+        align-self: flex-start;
+        max-width: 100%;
+    }
+
+    .details h1{
+        margin: 3rem 0;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+}
+@media(min-width: 576px) and (max-width: 768px){
+
+    .container {
+        padding: 0;
+    }
+   
+    .movie {
+        flex-direction: column;
+    }
+
+    .movie img {
+        width: 270px;
+    }
+
+    .details {
+        margin: 0;
+        align-self: flex-start;
+        max-width: 100%;
+    }
+
+    .details h1{
+        margin: 3rem 0;
+        margin: 1rem;
+        font-size: 1.7rem;
+    }
+}
+
